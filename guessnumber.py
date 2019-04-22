@@ -6,8 +6,8 @@ while True:
 	if r == num:
 		print('your answer is correct')
 		break
-	else:
-		if r > num:
-			print('bigger')
-		if r < num:
-			print('smaller')
+	elif r > num:
+		print('bigger')
+	elif r < num:
+		print('smaller')
+		
